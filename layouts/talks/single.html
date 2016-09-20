@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+    <div id="tableContainer">
+      <div id="tableRow">
+
+        <section id="content">
+          {{ with $.Params.video }}
+          <iframe width="490" height="275.63" src="{{ . }}" frameborder="0" allowfullscreen class="videos"></iframe>
+          {{ end }}
+
+          <h2>{{ .Title }}</h2>
+          <p class="talk-dates">
+            {{ .Date.Format "January 2006"}}
+          </p>
+
+          {{ .Content }}
+
+        </section>
+
+      </div>
+    </div>
+
+{{ partial "footer.html" . }}

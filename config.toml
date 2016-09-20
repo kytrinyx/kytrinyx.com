@@ -1,3 +1,9 @@
 languageCode = "en-us"
 baseurl = "http://www.kytrinyx.com/"
-title = "kytrinyx"
+title = "KYTRINYX"
+
+[params]
+  author = "Katrina Owen"
+
+[permalinks]
+  talk = "/talks/:slug"

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    {{ .Hugo.Generator }}
+    <meta charset="utf-8">
+    <title>{{ .Site.Title }}</title>
+    <link type="text/css" rel="stylesheet" href="/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="/css/minimistic.css">
+  </head>
+
+  <body>
+
+    <header id="header">
+    <a class="title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+
+    <nav>
+      <ul>
+        <li class="navigation"><a class="link" href="{{ .Site.BaseURL }}">HOME</a></li>
+        <li class="navigation"><a class="link" href="{{ .Site.BaseURL }}exercism">EXERCISM</a></li>
+        <li class="navigation"><a class="link" href="{{ .Site.BaseURL }}talks">TALKS</a></li>
+        <li class="navigation"><a class="link" href="{{ .Site.BaseURL }}contact">CONTACT</a></li>
+      </ul>
+    </nav>
+   </header>
