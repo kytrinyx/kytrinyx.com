@@ -16,10 +16,12 @@
 
     <nav>
       <ul>
-        <li class="navigation"><a class="link" href="{{ .Site.BaseURL }}">HOME</a></li>
-        <li class="navigation"><a class="link" href="{{ .Site.BaseURL }}exercism">EXERCISM</a></li>
-        <li class="navigation"><a class="link" href="{{ .Site.BaseURL }}talks">TALKS</a></li>
-        <li class="navigation"><a class="link" href="{{ .Site.BaseURL }}contact">CONTACT</a></li>
+        {{ $node := . }}
+        {{ range .Site.Menus.main }}
+        <li class="navigation">
+        <a class="{{if or ($node.IsMenuCurrent "main" .) ($node.HasMenuCurrent "main" .) }}current{{ else }}link{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
       </ul>
     </nav>
    </header>

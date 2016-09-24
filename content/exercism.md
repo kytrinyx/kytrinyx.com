@@ -1,5 +1,10 @@
 +++
 title = "Exercism"
+[menu.main]
+identifier = "exercism"
+name       = "EXERCISM"
+url        = "/exercism/"
+weight     = 1
 +++
 
 ![Exercism](/img/exercism.png)
