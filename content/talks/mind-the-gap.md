@@ -3,7 +3,7 @@ title = "Mind the Gap"
 slug = "mind-the-gap"
 date = "2016-07-12"
 description = "How do you learn Go? First do the tour. Then read the language spec. Then write a lot of code. This works for a lot of people, but for some the gap between the tour and the spec is a vast chasm. This talk explores ways we might bridge this gap, and make Go accessible to a broader audience."
-video = "https://www.youtube.com/embed/ClPIeuL9HnI"
+video = "https://www.youtube.com/embed/S-EOx0b-pIw"
 +++
 
 ## Notes
