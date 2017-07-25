@@ -104,16 +104,25 @@ li {
   line-height: 25px;
 }
 
+.talk-heading {
+  padding-bottom:10px;
+}
 .talk-dates {
   font-size: 13px;
   font-weight: 300;
   color: grey;
   text-align: center;
   line-height: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
-.quotes {
-  font-style: italic;
+.talk-synopsis {
+  color:#333;
+  font-size:14px;
+  line-height:21px;
+  font-weight:300;
+}
+.talk-synopsis p {
+  padding-bottom:15px;
 }
 .thumbnail {
   width: 150px;
