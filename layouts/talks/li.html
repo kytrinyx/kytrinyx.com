@@ -1,5 +1,4 @@
-<div class="talks">
-  <a href="/talks/{{ .Slug }}"><img src="/img/{{ .Slug }}.png" class="thumbnail" alt="{{ .Title }}"></a>
+<a class="talk" href="/talks/{{ .Slug }}"><img src="/img/{{ .Slug }}.png" class="thumbnail" alt="{{ .Title }}">
 
   <h3>{{ .Title }}</h3>
 
@@ -10,4 +9,4 @@
   <p class="dates">
     {{ .Date.Format "January 2006"}}
   </p>
-</div>
+</a>
